@@ -1,0 +1,24 @@
+body {
+    font-family: arial;
+}
+.forminscr{
+    color: white;  
+    border-color: transparent;
+    background-color: #51545A;
+    position: absolute;
+    text-align: center;
+}
+
+.fieldset{
+    border-color: transparent;
+}
+
+.insco{
+    color: silver;
+    border-radius:8px 8px 8px 8px;
+    color: grey;
+    font-weight: bold;
+}
+.retourbttn{
+    text-decoration: none;
+}

@@ -1,0 +1,254 @@
+body{
+        margin: 0px;
+        font-family: arial;
+}
+
+.header{
+    position: absolute;
+    top: 0%;
+    background-color: #1C2223;
+    width: 100%;
+    height: 2.59%;
+    font-size: 100%;
+
+}
+
+
+.connexion{
+    position: absolute;
+    bottom: 10%;
+    right: 20%;
+    text-decoration: none;
+}
+.connexion:link {color: white;}
+.connexion:visited {color: grey;}
+.connexion:hover{color: silver;}
+
+
+.inscription{
+    position: absolute;
+    bottom: 10%;
+    right: 14.2%;
+    text-decoration: none;
+}
+.inscription:link {color: white;}
+.inscription:visited {color: grey;}
+.inscription:hover{color: silver;}
+
+.bandeau{
+    position: absolute;
+    top: 2.59%;
+    width: 100%;
+    height: 6.82%;
+    background: linear-gradient(to bottom, #51545A,#1E1E1F);
+
+}
+
+.NW{
+    position: absolute;
+    top: 4%;
+    left: 1%;
+    color: white;
+    font-size: 270%;
+    text-shadow: 4px 9px 1px black;
+    text-decoration: none;
+}
+
+
+
+#menu-demo2, #menu-demo2 ul{
+    position: absolute;
+    left: 15%;
+    list-style: none;
+    text-align: center;
+}
+#menu-demo2 li{
+    display:inline-block;
+    position:relative;
+    border-radius:8px 8px 8px 8px;
+}
+
+#menu-demo2 ul li{
+    display:inherit;
+    border-radius:0;
+}
+
+#menu-demo2 ul li:hover{
+    border-radius:-30px;
+}
+
+#menu-demo2 ul li:last-child{
+    border-radius:0 0 8px 8px;
+}
+
+/*Menu déroulant*/
+#menu-demo2 ul{
+    position:absolute;
+    left: -1%;
+    top: 85%;
+    z-index: 1000;
+    max-height:0;
+    overflow:hidden;
+    -moz-transition: .8s all .3s;
+}
+
+#menu-demo2 li:hover ul{
+max-height:15em;
+}
+/* background des liens sous menus */
+#menu-demo2 li:first-child li{
+    background:#1E1E1F;
+}
+#menu-demo2 li:nth-child(2) li{
+    background:#1E1E1F;
+}
+#menu-demo2 li:last-child li{
+    background:#1E1E1F;
+}
+/* background des liens menus et sous menus au survol */
+#menu-demo2 li:first-child:hover, #menu-demo2 li:first-child li:hover{
+    background: transparent;
+}
+#menu-demo2 li:nth-child(2):hover, #menu-demo2 li:nth-child(2) li:hover{
+    background: transparent;
+}
+#menu-demo2 li:last-child:hover, #menu-demo2 li:last-child li:hover{
+    background: transparent;
+}
+/* les a href */
+#menu-demo2 a{
+    position: relative;
+text-decoration:none;
+display:block;
+padding:8px 40px;
+color:white;
+font-size: 160%;
+}
+#menu-demo2 ul a{
+padding:5% 1%;
+margin-right: 10%;
+}
+#menu-demo2 li:link li a{
+color:white;
+text-transform:inherit;
+}
+#menu-demo2 li:visited li a{
+color:grey;
+text-transform:inherit;
+}
+#menu-demo2 li:hover li a{
+color:silver;
+text-transform:inherit;
+}
+
+#menu-demo2 li:hover a, #menu-demo2 li li:hover a{
+color:grey;
+}
+
+.formsearch{
+    position: relative;
+    margin-left: 70%;
+    margin-top: 2%;
+}
+.recherche{
+    position: relative;
+    background: linear-gradient(to bottom, #1E1E1F 0%,#35373b 50%,#51545A 100%);
+    color: white;
+    border-color: transparent;
+    box-shadow:  0px 0px 2px silver;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.loupe{
+    position: fixed;
+    right: 19%;
+    top: 5.6%;
+    background-image: url(loupe34.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.bckgrnd{
+    position: absolute;
+    top: 9.41%;
+    background-color: black;
+    width: 100%;
+    height: 49.73%;
+    background-repeat: no-repeat;
+    display: block;
+    background-position: center;
+    background-size: contain;
+    background-image: url(monde.png);
+}
+.texte{
+    position: relative;
+    text-align: center;
+    float: left;
+    margin-left: 5%;
+    font-size: 130%;
+    color: #7EB0EB;       
+}
+.texte p::first-letter{
+        font-style: italic;
+}
+
+.jardinier{
+    position: absolute;
+    top: 3%;
+    right: 1%;
+    width: 17%;
+}
+
+.boucher{
+    position: absolute;
+    width: 17%;
+    right: 1%;
+    bottom: 25%;
+}
+.footer{
+    position: absolute;
+    top: 59.14%;
+    background: linear-gradient(to bottom, #51545A,#1E1E1F);
+    display: block;
+    width: 100%;
+    height: 40.86%;
+
+}
+
+.footer a:link{
+    color: white;
+    text-decoration: none;
+}
+.footer a:visited {
+    color: grey;
+    text-decoration: none;
+}
+.footer a:hover{
+    color: silver;
+    text-decoration: none;
+}
+.footer h1{
+    color: #f6b313;
+    font-weight: normal;
+}
+.footer ul{list-style: none;
+
+
+}
+
+.footer1{
+    position: fixed;
+    left: 10%;
+    text-decoration: none;
+}
+
+.footer2{
+    position: fixed;
+    right: 50%;
+}
+
+.footer3{
+    position: fixed;
+    right: 15%;
+}

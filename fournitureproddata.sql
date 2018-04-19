@@ -1,0 +1,2 @@
+insert into `Recolte`(`lieupro`,`daterecolt`,`datelimit`,`bio`,`ptretrait`,`prixkg`,`quantite`,`unite`) values
+	('Venterol','2014-09-02','2015-05-15',1,'(05130','05000-2','05000-5','05000-12','05110)',2.5,100,'kg')
